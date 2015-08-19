@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" ng-app="templateApp">
+<head>
+    <meta name="viewport" content="initial-scale=1"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type='text/css'/>
+    <link rel="stylesheet" href="../assets/style.css"/>
+    
+    <title>App Template</title>
+</head>
+<body ng-controller="IndexCtrl">
+    <div ng-view></div>
+</body>
+
+<script src="../../bower_components/angular/angular.min.js"></script>
+<script src="../../bower_components/angular-route/angular-route.min.js"></script>
+
+<!-- start modules -->
+<script src="app.module.js"></script>
+<script src="controllers/app.controllers.module.js"></script>
+<script src="services/app.services.module.js"></script>
+<!-- end modules -->
+
+<!-- start app js -->
+<script src="app.config.js"></script>
+<script src="app.routes.js"></script>
+
+<script src="controllers/index.controller.js"></script>
+<script src="services/index.service.js"></script>
+<!-- end app js -->
+
+</html>

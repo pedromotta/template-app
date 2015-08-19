@@ -1,0 +1,12 @@
+{
+  "name": "app-template",
+  "version": "0.0.1",
+  "authors": [
+    "Pedro Motta <pedromotta@outlook.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular": "~1.4.4",
+    "angular-route": "~1.4.4"
+  }
+}
